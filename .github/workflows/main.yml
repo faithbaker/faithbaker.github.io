@@ -1,10 +1,10 @@
 name: Deploy to GitHub Pages via angular-cli-ghpages
 
 on:
-push:
-  branches:
-  - main
-  - release/*
+  push:
+    branches:
+    - main
+    - release/*
 
 jobs:
   build-and-deploy:
